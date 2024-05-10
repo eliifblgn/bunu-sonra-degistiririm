@@ -1,0 +1,4 @@
+repository "skyrim.test@Antlers@cloud"
+  path "/"
+    br "/main"
+    co "/main"

@@ -1,0 +1,407 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 15557 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/hmmmm/skyrim.test
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64842
+Successfully changed project path to: C:/hmmmm/skyrim.test
+C:/hmmmm/skyrim.test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10104] Host "[IP] 192.168.236.133 [Port] 0 [Flags] 2 [Guid] 3095309452 [EditorId] 3095309452 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NRMP9RH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10104] Host "[IP] 192.168.236.133 [Port] 0 [Flags] 2 [Guid] 3095309452 [EditorId] 3095309452 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NRMP9RH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 9.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/hmmmm/skyrim.test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3770
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006135 seconds.
+- Loaded All Assemblies, in  0.340 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.258 seconds
+Domain Reload Profiling: 598ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (259ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.559 seconds
+Refreshing native plugins compatible for Editor in 4.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.620 seconds
+Domain Reload Profiling: 1177ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (124ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (620ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (490ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4044 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (171.4 KB). Loaded Objects now: 4502.
+Memory consumption went from 146.0 MB to 145.8 MB.
+Total: 3.452200 ms (FindLiveObjects: 0.279100 ms CreateObjectMapping: 0.140500 ms MarkObjects: 2.831900 ms  DeleteObjects: 0.199600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 419674.191793 seconds.
+  path: Assets/Tile Palette/TP Kar/karsu2.png
+  artifactKey: Guid(efe21630629db9147af1ab11220683ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsu2.png using Guid(efe21630629db9147af1ab11220683ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463cf9d301a8cbfae45bde5250896735') in 0.108806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile Palette/TP Kar/karsuSW.png
+  artifactKey: Guid(dfa91212f9d82c248913cc6047fa3d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsuSW.png using Guid(dfa91212f9d82c248913cc6047fa3d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7645745cc57ba34d217f745d6ae37399') in 0.014795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tile Palette/TP Kar/karsukose1.png
+  artifactKey: Guid(bf92c0e820b9685419140e674f6884d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsukose1.png using Guid(bf92c0e820b9685419140e674f6884d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d3cbf8c99cc0082b97619908d3f5b5') in 0.016195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile Palette/TP Kar/karsu7.png
+  artifactKey: Guid(f4398488df23a1a42bbb443f4d5fd460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsu7.png using Guid(f4398488df23a1a42bbb443f4d5fd460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb41b130efdbb0b2ac00d17e61728541') in 0.018048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tile Palette/TP Kar/karsuS.png
+  artifactKey: Guid(2321ac5fa59928d4fa4e641788bea466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsuS.png using Guid(2321ac5fa59928d4fa4e641788bea466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072353c270eb8581722fc9b6d9350206') in 0.012164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tile Palette/TP Kar/karsuE.png
+  artifactKey: Guid(3374ec48cb7effd43be2bb0803796d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsuE.png using Guid(3374ec48cb7effd43be2bb0803796d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5262617fa30f6b8357a4e66dbffcd0') in 0.014437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tile Palette/TP Kar/karsuNE.png
+  artifactKey: Guid(2cd4ebec9fa98394ca2a5acc2f43d4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsuNE.png using Guid(2cd4ebec9fa98394ca2a5acc2f43d4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2534d59468d3bc082fd016b60d0dafbe') in 0.013014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.505788 seconds.
+  path: Assets/Tile Palette/TP Kar/karyol3.png
+  artifactKey: Guid(c5a048f213b4e2a46a651804c3d46796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karyol3.png using Guid(c5a048f213b4e2a46a651804c3d46796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34615681f0bc99eae2afde06172ef7c0') in 0.011404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tile Palette/TP Kar/karyol4.png
+  artifactKey: Guid(66fbee4a077debb4987578eab01b727c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karyol4.png using Guid(66fbee4a077debb4987578eab01b727c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10e8e3b3d3f7ebcc4b7b7fd63d9fb68') in 0.012754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tile Palette/TP Kar/karyolM.png
+  artifactKey: Guid(bba24d97a4cc3dc43b84c36a0cbfb597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karyolM.png using Guid(bba24d97a4cc3dc43b84c36a0cbfb597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203eec59124b5ce8bb71b43f3a745245') in 0.012881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tile Palette/TP Kar/karyolSW.png
+  artifactKey: Guid(8a83be5c79448ae4b92d4d0d8e970b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karyolSW.png using Guid(8a83be5c79448ae4b92d4d0d8e970b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44eef646dbc670d1ad20d9faeb83e7bd') in 0.015632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tile Palette/TP Kar/karyolSE.png
+  artifactKey: Guid(b83efd12165f3cc438f5329dc0618395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karyolSE.png using Guid(b83efd12165f3cc438f5329dc0618395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8a9b1c9c2e9db0d9c906513dd21416') in 0.015527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tile Palette/TP Kar/karyolkose2.png
+  artifactKey: Guid(e2bc720eeb491a44d9732b5adb9e1795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karyolkose2.png using Guid(e2bc720eeb491a44d9732b5adb9e1795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ccb2d959714543327dc2869331ac38') in 0.014239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile Palette/TP Kar/karyolS.png
+  artifactKey: Guid(e302201ea10c7b74588fc36f1f0562d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karyolS.png using Guid(e302201ea10c7b74588fc36f1f0562d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd8b993feb8287e8b4188476bfb39f7') in 0.016271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tile Palette/TP Kar/karyolN.png
+  artifactKey: Guid(e7b948a95148c70448743b47acfc2a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karyolN.png using Guid(e7b948a95148c70448743b47acfc2a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4bc64cf39141599766579aef6e5639') in 0.013498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.013426 seconds.
+  path: Assets/Tile Palette/TP Kar/karsu3.png
+  artifactKey: Guid(6426f3c0ee8323e4ca534f8cbc80c178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsu3.png using Guid(6426f3c0ee8323e4ca534f8cbc80c178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bf1d8e92f578e6f29eef966aaf49ae') in 0.011616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tile Palette/TP Kar/karsu6.png
+  artifactKey: Guid(45ae9753232550a4589b464375a1d4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsu6.png using Guid(45ae9753232550a4589b464375a1d4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4754970aceada92087c404f63fbe1c') in 0.011890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tile Palette/TP Kar/karsukose2.png
+  artifactKey: Guid(33252eaa31d520547986487e66cf48ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsukose2.png using Guid(33252eaa31d520547986487e66cf48ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76740cac216805fd1b3dab27a44679a9') in 0.011335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tile Palette/TP Kar/karyolSW.png
+  artifactKey: Guid(8a83be5c79448ae4b92d4d0d8e970b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karyolSW.png using Guid(8a83be5c79448ae4b92d4d0d8e970b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849ab4ba99a27682c342d87b524f961e') in 0.010839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tile Palette/TP Kar/karsuSW.png
+  artifactKey: Guid(dfa91212f9d82c248913cc6047fa3d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsuSW.png using Guid(dfa91212f9d82c248913cc6047fa3d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a9107e8b510d5a8105fe300fb1be7c') in 0.010969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tile Palette/TP Kar/karyolM.png
+  artifactKey: Guid(bba24d97a4cc3dc43b84c36a0cbfb597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karyolM.png using Guid(bba24d97a4cc3dc43b84c36a0cbfb597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9331b72ed00f3588d1b98dfab79831') in 0.011893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tile Palette/TP Kar/karyolSE.png
+  artifactKey: Guid(b83efd12165f3cc438f5329dc0618395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karyolSE.png using Guid(b83efd12165f3cc438f5329dc0618395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df8f3ea6476796be38136c407c7e33e') in 0.010903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tile Palette/TP Kar/karyolW.png
+  artifactKey: Guid(dd69f517d16e480419122f0559c7845b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karyolW.png using Guid(dd69f517d16e480419122f0559c7845b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66438a162af9e609af5ce8c034e39885') in 0.013399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tile Palette/TP Kar/karsu7.png
+  artifactKey: Guid(f4398488df23a1a42bbb443f4d5fd460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsu7.png using Guid(f4398488df23a1a42bbb443f4d5fd460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12ec8fe33bd1a9971055886183f4bfa') in 0.012542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tile Palette/TP Kar/karsuW.png
+  artifactKey: Guid(700f1a91f340155448e9d38694fa62b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsuW.png using Guid(700f1a91f340155448e9d38694fa62b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cab77e231f78683ffc33c160278e634') in 0.010785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tile Palette/TP Kar/karsuE.png
+  artifactKey: Guid(3374ec48cb7effd43be2bb0803796d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsuE.png using Guid(3374ec48cb7effd43be2bb0803796d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c118901b23a73b57243bdc94218849ee') in 0.011006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tile Palette/TP Kar/karsuSE.png
+  artifactKey: Guid(ce95c436319ff584d87ef658ba0ef7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karsuSE.png using Guid(ce95c436319ff584d87ef658ba0ef7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3544499c3df746cc2b99be618a79a431') in 0.015919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tile Palette/TP Kar/karyolN.png
+  artifactKey: Guid(e7b948a95148c70448743b47acfc2a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palette/TP Kar/karyolN.png using Guid(e7b948a95148c70448743b47acfc2a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d290b462bccb7bc77496919cdc6219') in 0.013029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3

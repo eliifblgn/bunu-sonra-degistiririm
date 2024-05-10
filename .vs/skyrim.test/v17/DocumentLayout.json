@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\hmmmm\\skyrim.test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D28D15CF-CDB7-23E0-E344-3D942B0D53D6}|Assembly-CSharp.csproj|c:\\hmmmm\\skyrim.test\\assets\\scripts\\npcmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D28D15CF-CDB7-23E0-E344-3D942B0D53D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28D15CF-CDB7-23E0-E344-3D942B0D53D6}|Assembly-CSharp.csproj|C:\\hmmmm\\skyrim.test\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D28D15CF-CDB7-23E0-E344-3D942B0D53D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28D15CF-CDB7-23E0-E344-3D942B0D53D6}|Assembly-CSharp.csproj|C:\\hmmmm\\skyrim.test\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D28D15CF-CDB7-23E0-E344-3D942B0D53D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D28D15CF-CDB7-23E0-E344-3D942B0D53D6}|Assembly-CSharp.csproj|C:\\hmmmm\\skyrim.test\\assets\\scripts\\healthxpsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D28D15CF-CDB7-23E0-E344-3D942B0D53D6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthxpsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\hmmmm\\skyrim.test\\Assets\\Scripts\\SeekPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SeekPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\hmmmm\\skyrim.test\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\hmmmm\\skyrim.test\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T06:52:22.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\hmmmm\\skyrim.test\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\hmmmm\\skyrim.test\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:51:41.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SeekPlayer.cs",
+              "DocumentMoniker": "C:\\hmmmm\\skyrim.test\\Assets\\Scripts\\SeekPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SeekPlayer.cs",
+              "ToolTip": "C:\\hmmmm\\skyrim.test\\Assets\\Scripts\\SeekPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SeekPlayer.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwDAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T20:29:43.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NPCMovement.cs",
+              "DocumentMoniker": "C:\\hmmmm\\skyrim.test\\Assets\\Scripts\\NPCMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCMovement.cs",
+              "ToolTip": "C:\\hmmmm\\skyrim.test\\Assets\\Scripts\\NPCMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCMovement.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAowDIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T20:30:41.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HealthXpSystem.cs",
+              "DocumentMoniker": "C:\\hmmmm\\skyrim.test\\Assets\\Scripts\\HealthXpSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthXpSystem.cs",
+              "ToolTip": "C:\\hmmmm\\skyrim.test\\Assets\\Scripts\\HealthXpSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthXpSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T08:58:28.823Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
